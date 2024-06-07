@@ -12,7 +12,7 @@ const Hero = () => {
         <div>
             <h1 className='text-[35px] md:text-[50px] text-white font-bold'>
                 HI I'M 
-                <span className='text-yellow-400'> NAVYA !</span>
+                <span className='text-yellow-400'> NAVYA RACHA!</span>
             </h1>
       
             <TextEffect />
