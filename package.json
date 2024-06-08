@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "deploy": "gh-pages -d out",
+    "build": "NODE_ENV=production next build",
+    "export": "next export",
     "start": "next start",
+    "deploy": "gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
